@@ -1,0 +1,54 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  padding: 50px;
+  background: url("Media/Background.png") no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+}
+
+.container {
+  padding: 50px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.download-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
+
+.success-message {
+  margin-top: 20px;
+  color: black;
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  color: white;
+  background-color: #008cba;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.home-button:hover {
+  background-color: #005f73;
+}

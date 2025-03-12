@@ -1,0 +1,64 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: url('Media/Background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+
+.small-screen-text {
+    font-size: 18px
+}
+
+.media-section {
+    margin-top: 40px;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+.large-only {
+    display: none
+}
+
+h2 {font-size: 1.25rem}
+
+h1 {font-size: 24px}
+
+@media screen and (min-width: 1000px) {
+
+    .small-only {
+        display: none;
+    }
+
+    .large-only {
+        display: block
+    }
+
+    .download-link {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 15px 30px;
+        font-size: 1.5em;
+        color: white;
+        background-color: #008CBA;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    .download-link:hover {
+        background-color: #005f73;
+    }
+
+    h2 {font-size: 2rem}
+
+    h1 {font-size: 34px;
+        text-align: center;}
+
+
+}
