@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            padding: 50px;
+            background: url('Media/Background.png') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+        }
+        .container {
+            padding: 50px;
+        }
+        .logo {
+            width: 300px;
+        }
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .download-button:hover {
+            background-color: #45a049;
+        }
+        .success-message {
+            margin-top: 20px;
+            color: black;
+        }
+        .home-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            color: white;
+            background-color: #008CBA;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .home-button:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Download Now!</h1>
+    <img class="logo" src="Media/logo.png" alt="Pixel Panzer Logo">
+    <br>
+    <a href="Media/PixelPanzer.exe" download="PixelPanzer.exe" class="download-button">Download Pixel Panzer</a>
+    <br>
+    <a href="Media/PixelPanzer%20(OrangePi%20Version).jpg" download="PixelPanzer (OrangePi Version).jpg" class="download-button">Download Pixel Panzer (OrangePi Version)</a>
+
+    <div id="success-message" class="success-message" style="display: none;">Have Fun!</div>
+    <br>
+    <a href="index.html" class="home-button">Go Back Home</a>
+</div>
+
+<script>
+    // Show success message when the button is clicked
+    document.querySelector('.download-button').addEventListener('click', function() {
+        document.getElementById('success-message').style.display = 'block';
+    });
+</script>
+</body>
+</html>
