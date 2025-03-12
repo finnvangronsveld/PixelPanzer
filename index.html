@@ -9,18 +9,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="index.css">
 </head>
-<body class="p-5 text-center">
-<div class="container">
+<body class="">
+<header>
+<ul class="nav nav-pills">
+    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+    <li class="nav-item"><a href="gameplay.html" class="nav-link">Gameplay</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Download</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+</ul>
+</header>
+<div class="container p-5 text-center">
     <h1 class="">Welcome to PixelPanzer</h1>
     <p class="large-only">Experience fast-paced pixel tank battles!</p>
     <a href="download.html" class="download-link large-only">Download Now</a>
     <p class="small-screen-text small-only">we're very sorry but PixelPanzer can only be played on pc. We hope to see
         you there!</p>
+    <!-- Media Section -->
     <div class="media-section">
-        <h2><span class="small-only">But in the meanwhile you can listen to the Theme Song!</span><span
-                class="large-only">Listen to the Theme Song!</span>
+        <h2>
+            <span class="small-only">But in the meanwhile you can listen to the Theme Song!</span>
+            <span class="large-only">Listen to the Theme Song!</span>
         </h2>
-        <div class="d-flex justify-content-center">
+
+        <!-- Audio -->
+        <div class="d-flex justify-content-center my-3">
             <audio controls>
                 <source src="Media/PixelPanzer.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
