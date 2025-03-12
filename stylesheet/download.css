@@ -1,8 +1,8 @@
 body {
   font-family: "Press Start 2P", cursive;
   text-align: center;
-  padding: 50px;
-  background: url("Media/Background.png") no-repeat center center fixed;
+
+  background: url("../Media/Background.png") no-repeat center center fixed;
   background-size: cover;
   color: black;
 }
@@ -27,10 +27,11 @@ body {
   border: none;
   border-radius: 8px;
   margin-bottom: 1rem;
+  transition: 0.5s;
 }
 
 .download-button:hover {
-  background-color: #45a049;
+  background-color: #19691d;
 }
 
 .success-message {
@@ -56,4 +57,11 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+header {
+  background-color: gray;
+  padding: 2rem;
+  border-bottom: 3px solid #000;
+  transition: 0.5s;
 }

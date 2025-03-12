@@ -1,6 +1,6 @@
 body {
     font-family: 'Press Start 2P', cursive;
-    background: url('Media/Background.png') no-repeat center center fixed;
+    background: url('../Media/Background.png') no-repeat center center fixed;
     background-size: cover;
     color: black;
 }
@@ -39,6 +39,24 @@ header {
     padding: 2rem;
     border-bottom: 3px solid #000;
     transition: 0.5s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.controls{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+    transition: 1s;
+}
+
+.controls:hover {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 @media screen and (min-width: 1000px) {

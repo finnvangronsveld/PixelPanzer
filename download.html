@@ -7,20 +7,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="download.css">
+    <link rel="stylesheet" href="stylesheet/download.css">
 </head>
 <body>
+
+<header>
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="gameplay.html" class="nav-link">Gameplay</a></li>
+        <li class="nav-item"><a href="download.html" class="nav-link active" aria-current="page">Download</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+    </ul>
+</header>
+
 <div class="container">
     <h1>Download Now!</h1>
     <img class="logo" src="Media/logo.png" alt="Pixel Panzer Logo">
     <br>
     <a href="Media/PixelPanzer.exe" download="PixelPanzer.exe" class="download-button">Download Pixel Panzer</a>
     <br>
-    <a href="Media/PixelPanzer%20(OrangePi%20Version).jpg" download="PixelPanzer (OrangePi Version).jpg" class="download-button">Download Pixel Panzer (OrangePi Version)</a>
+    <a href="Media/PixelPanzer%20(OrangePi%20Version).jpg" download="PixelPanzer (OrangePi Version).jpg" class="download-button">Download Pixel Panzer (Accessible version)</a>
+    <br>
+
+    <h3 class="mt-5">Legacy version</h3>
+
+    <a href="Media/PixelPanzer.exe" download="PixelPanzer.exe" class="download-button">Download the first version of Pixel Panzer</a>
 
     <div id="success-message" class="success-message" style="display: none;">Have Fun!</div>
     <br>
-    <a href="index.html" class="home-button">Go Back Home</a>
+
 </div>
 
 <script>
